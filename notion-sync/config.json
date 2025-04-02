@@ -1,0 +1,24 @@
+{
+  "notion": {
+    "databaseId": "",
+    "rootPageId": "",
+    "excludedPages": []
+  },
+  "markdown": {
+    "rootDir": "../../",
+    "specDir": "../../specification",
+    "docsDir": "../../docs",
+    "excludedPatterns": [
+      "node_modules/**",
+      ".git/**",
+      "**/*.test.md",
+      "**/README.md"
+    ]
+  },
+  "sync": {
+    "watchMode": true,
+    "syncInterval": 300000,
+    "maxRetries": 3,
+    "retryDelay": 1000
+  }
+} 
